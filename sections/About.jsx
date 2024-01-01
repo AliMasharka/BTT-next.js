@@ -22,7 +22,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] text-inline font-normal sm:text-[30px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">BTT</span> Takımı {' '} FIRST Robotics Competition Programı kapsamında lise öğrencilerinin bilimi, mühendisliği ve robotik alanını 
+        <span className="font-extrabold text-white">BTT</span> {' '} FIRST Robotics Competition Programı kapsamında lise öğrencilerinin bilimi, mühendisliği ve robotik alanını 
 sevdirmek amacıyla <span className="font-extrabold text-white">Ümit Altındiş </span>  mentörlüğünde öğrencilerle birlikte <span className="font-extrabold text-white">2022 </span> yılında kurulmuş bir robot 
 takımıdır. Başakşehir Teknoloji Takımı, 2022'dan bu yana yarışmalara katılmakta ve her yarışmada üstün bir 
 başarı göstererek kazanmış olduğu ödüllerle diğer robotik takımlarına ilham olmaya devam etmektedir. 

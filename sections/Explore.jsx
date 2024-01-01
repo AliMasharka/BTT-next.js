@@ -22,7 +22,7 @@ const Explore = () => {
       >
         <TypingText title="| Fotoğraf Galerimiz" textStyles="text-center" />
         <TitleText
-          title={<>Bosphurus Regional 2024 <br className="md:block hidden" /> Fotoğraf Galerimiz</>}
+          title={<>Bosphorus Regional 2024 <br className="md:block hidden" /> Fotoğraf Galerimiz</>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">

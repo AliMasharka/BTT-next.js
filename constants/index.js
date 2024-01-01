@@ -45,7 +45,7 @@ export const explorePrice = [
 ];
 
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Ana sayfa' },
+  { href: '#alan', key: 'home', label: 'Ana sayfa' },
   { href: '#about', key: 'about', label: 'Hakkımızda' },
   { href: '#explore', key: 'services', label: 'Galeri' },
   { href: '#whats', key: 'features', label: 'Vizyonumuz' },
@@ -53,9 +53,9 @@ export const NAV_LINKS = [
 ];
 
 export const startingFeatures = [
-  'Find a category that suits you and you want to enter',
-  'Enter the category by reading bismillah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Güçlü ve sağlam tank şasesiyle asla yıkılmadı.',
+  'iki taraflı neo motorlu sistemiyle top çekmeye ve fırlatmaya yarayan intake kolu.',
+  'Final günü aklımıza gelen intake sistem güncellemesi sayesinde daha yüksek performans gücü.',
 ];
 
 export const newFeatures = [
@@ -76,9 +76,9 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: '/faqs2.png',
-    title: 'Why is the team named BTT',
+    title: 'Takımımızın adı neden BTT?',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Başakşehir Belediyesi ve Başakşehir İlçe Milli Eğitim Bakanlığı tarafından kurulmuş çevre okullardan oluşan karma bir teknoloji takımı olduğumuz için takımımızın adı BTT (Başakşehir Teknoloji Takımı).',
   },
   {
     imgUrl: '/faqs1.jpg',
