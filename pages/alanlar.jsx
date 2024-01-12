@@ -51,17 +51,6 @@ const Alanlar = () => (
           alt="planet-09"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
-
-        <motion.div
-          variants={zoomIn(0.4, 1)}
-          className="lg:block hidden absolute -left-[10%] top-[3%]"
-        >
-          <img
-            src="/stamp.png"
-            alt="stamp"
-            className="w-[155px] h-[155px] object-contain"
-          />
-        </motion.div>
       </motion.div>
     </motion.div>
     
@@ -80,7 +69,7 @@ const Alanlar = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6s`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
@@ -89,10 +78,10 @@ const Alanlar = () => (
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Elektronik
+            Mekanik
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Elektronik ekibimiz
+            Mekanik ekibimiz
           </p>
         </div>
 
@@ -112,8 +101,7 @@ const Alanlar = () => (
           alt="planet-09"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
-
-        <motion.div
+         <motion.div
           variants={zoomIn(0.4, 1)}
           className="lg:block hidden absolute -left-[10%] top-[3%]"
         >
@@ -125,6 +113,8 @@ const Alanlar = () => (
         </motion.div>
       </motion.div>
     </motion.div>
+
+   
 
     <div className='mt-14'>
         <h2>◌</h2>
@@ -246,7 +236,7 @@ const Alanlar = () => (
               className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
             />
           </div>
-        </a>npm run d
+        </a>
         </motion.div>
       </motion.div>
     </motion.div>    

@@ -22,7 +22,7 @@ const Hero = () => (
           variants={textVariant(1.2)}
           className="flex flex-row justify-center items-center"
         >
-          <h1 className={styles.heroHeading}>Tek Takımı</h1>
+          <h1 className={styles.heroHeading}>FRC Takımı</h1>
           <h1 className={styles.heroHeading}></h1>
         </motion.div>
       </div>

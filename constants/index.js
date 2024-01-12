@@ -63,7 +63,7 @@ export const newFeatures = [
     imgUrl: '/vrpano.svg',
     title: 'Vizyon + BTT Açılımı',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'In the latest update, your eyes are narrow, making the world more realistic than ever.',
   },
   {
     imgUrl: '/headset.svg',
@@ -82,15 +82,15 @@ export const insights = [
   },
   {
     imgUrl: '/faqs1.jpg',
-    title: 'How long does it take to answer your questions.',
+    title: 'Bize neden sponsor olmalısınız?',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Sponsorluğunuz, sözlerden çok eylemleri değerlendiren, sürekli olarak markanızı tanıtan malzemelerde önemli pazarlama maruziyeti sunan bir gruba destek olur. Belgeler ve sertifikalarla ilgili teşekkürlerden faydalanarak markanızın teknoloji alanına desteklediğinizi gösterir.',
   },
   {
     imgUrl: '/faqs3.jpg',
-    title: 'Do you have an idea about building robots.',
+    title: 'Güncel yarışmalarımız ve kazandığımız ödüller?',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        '2023 sezonunda BOSPHORUS Regional’da Finalist Ödülü alarak rookie senemizi finalistlik ile taçlandırdık. 2024 sezonu içerisinde FRC Türkiye ve bölgesel yarışmalara ek olarak 2024 Houston FRC World Championship için hazırlıklarımızı sürdürüyoruz.',
   },
 ];
 
