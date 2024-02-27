@@ -31,7 +31,7 @@ const GetStarted = () => (
         className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| 2023 Robotumuz" />
-        <TitleText title={<>BTT Robotumuzun Özellikleri</>} />
+        <TitleText title={<>BTT Robotumuzun Özellikleri</>} className="font-mono" />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps

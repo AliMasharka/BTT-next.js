@@ -50,6 +50,8 @@ export const NAV_LINKS = [
   { href: '#explore', key: 'services', label: 'Galeri' },
   { href: '#whats', key: 'features', label: 'Vizyonumuz' },
   { href: '#faqs', key: 'faqs', label: 'FaQs' },
+  { href: 'alanlar', key: 'alanlarimiz', label: 'Alanlar' },
+  { href: 'members', key: 'üyelerimiz', label: 'Üyelermiz' },
 ];
 
 export const startingFeatures = [
@@ -60,16 +62,16 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/owlbtt.svg',
     title: 'Vizyon + BTT Açılımı',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever.',
+        'Başakşehirdeki misyonumuz, First Robotics Competition da mükemmeliği yakalamak, teknolojik yeniliklere ve küresel tanınmaya adanmış bir topluluk oluşturmaktır.',
   },
   {
-    imgUrl: '/headset.svg',
+    imgUrl: '/owlbtt.svg',
     title: 'Misyonumuz',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'işbirliği ruhunu besleyip teknolojik ilerlemelerde liderlik yapma misyonuyla, birlikte kalıcı bir miras bırakarak ülkelerine olumlu bir etki sağlamayı, gelecek nesillere.. konusunda ilham vermeye amaçlıyorlar.',
   },
 ];
 
@@ -98,6 +100,7 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    link: 'instagram.com',
   },
   {
     name: 'linkedin',

@@ -20,7 +20,7 @@ const About = () => (
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] text-inline font-normal sm:text-[30px] text-center text-secondary-white"
+        className="mt-[8px] italic text-inline font-normal sm:text-[30px] text-center text-secondary-white"
       >
         <span className="font-extrabold text-white">BTT</span> {' '} FIRST Robotics Competition Programı kapsamında lise öğrencilerinin bilimi, mühendisliği ve robotik alanını 
 sevdirmek amacıyla <span className="font-extrabold text-white">Ümit Altındiş </span>  mentörlüğünde öğrencilerle birlikte <span className="font-extrabold text-white">2022 </span> yılında kurulmuş bir robot 

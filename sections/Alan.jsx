@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
-const Alan = () => (
+const Alan = () => (alan
   <section className={`${styles.paddings}`}>
     <motion.div
       variants={staggerContainer}

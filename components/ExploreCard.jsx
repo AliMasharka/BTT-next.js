@@ -28,9 +28,9 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         >
           <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-1/2 h-1/2 object-contain"
+            src="/owlbtt.svg"
+            alt="BTT"
+            className="w-20 h-20 object-contain"
           />
         </div>
         <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">

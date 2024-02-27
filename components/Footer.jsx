@@ -16,18 +16,19 @@ const Footer = () => (
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold md:text-[64px] text-[44px] text-white">
+        <h4 className="font-light md:text-[64px] text-[44px] text-white">
           Ekibimize Katıl
         </h4>
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+        
           <img
-            src="/headset.svg"
+            src="/owlbtt.svg"
             alt="headset"
-            className="w-[24px] h-[24px] object-contain"
+            className="w-[35px] h-[35px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">
-            Ekibe katıl
           </span>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScoe6jTnH1Ef2VXTb4VS5G7tv3xNsuDWEL3HhlBiKmp97R4UQ/viewform" className='font-normal text-[16px] text-white'>Ekibe Katıl </a>
         </button>
       </div>
 
@@ -35,10 +36,10 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white">
-            B T T
+          <h4 className="font-extralight text-[24px] text-white">
+            BTT
           </h4>
-          <p className="font-normal text-[14px] text-white opacity-50">
+          <p className="font-light text-[14px] text-white opacity-50">
             Copyright © 2024 - 2025 BTT. All rights reserved.
           </p>
 

@@ -20,10 +20,10 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Fotoğraf Galerimiz" textStyles="text-center" />
+        <TypingText title="| Fotoğraf Galerimiz" textStyles="text-center " />
         <TitleText
           title={<>Bosphorus Regional 2024 <br className="md:block hidden" /> Fotoğraf Galerimiz</>}
-          textStyles="text-center"
+          textStyles="text-center font-"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
